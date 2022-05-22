@@ -98,7 +98,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Name = "CupomDesconto";
-            this.Text = "Form1";
+            this.Text = "Cadastro cupom de desconto";
             this.ResumeLayout(false);
             this.PerformLayout();
 
