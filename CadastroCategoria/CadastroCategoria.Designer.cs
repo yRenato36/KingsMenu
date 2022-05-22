@@ -98,7 +98,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Name = "CadastroCategoria";
-            this.Text = "Form1";
+            this.Text = "Cadastro de Categoria";
             this.ResumeLayout(false);
             this.PerformLayout();
 
