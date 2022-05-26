@@ -81,7 +81,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Produtos";
-            this.Text = "ListarProdutos";
+            this.Text = "Lista de Produtos";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 

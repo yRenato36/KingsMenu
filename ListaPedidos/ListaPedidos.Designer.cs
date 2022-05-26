@@ -28,29 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btnFinalizar = new System.Windows.Forms.Button();
+            this.gridPedidos = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.gridPedidos)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // btnFinalizar
             // 
-            this.button1.Location = new System.Drawing.Point(192, 180);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(138, 23);
-            this.button1.TabIndex = 28;
-            this.button1.Text = "Finalizar pedido";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnFinalizar.Location = new System.Drawing.Point(192, 180);
+            this.btnFinalizar.Name = "btnFinalizar";
+            this.btnFinalizar.Size = new System.Drawing.Size(138, 23);
+            this.btnFinalizar.TabIndex = 28;
+            this.btnFinalizar.Text = "Finalizar pedido";
+            this.btnFinalizar.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // gridPedidos
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(35, 56);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(454, 118);
-            this.dataGridView1.TabIndex = 27;
+            this.gridPedidos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridPedidos.Location = new System.Drawing.Point(35, 56);
+            this.gridPedidos.Name = "gridPedidos";
+            this.gridPedidos.Size = new System.Drawing.Size(454, 118);
+            this.gridPedidos.TabIndex = 27;
             // 
             // label1
             // 
@@ -61,27 +61,27 @@
             this.label1.TabIndex = 26;
             this.label1.Text = "Pedidos";
             // 
-            // button3
+            // btnCancelar
             // 
-            this.button3.Location = new System.Drawing.Point(35, 180);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(125, 23);
-            this.button3.TabIndex = 32;
-            this.button3.Text = "Cancelar pedido";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnCancelar.Location = new System.Drawing.Point(35, 180);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(125, 23);
+            this.btnCancelar.TabIndex = 32;
+            this.btnCancelar.Text = "Cancelar pedido";
+            this.btnCancelar.UseVisualStyleBackColor = true;
             // 
             // ListaPedidos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(536, 238);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.btnCancelar);
+            this.Controls.Add(this.btnFinalizar);
+            this.Controls.Add(this.gridPedidos);
             this.Controls.Add(this.label1);
             this.Name = "ListaPedidos";
             this.Text = "Lista de pedidos";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridPedidos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -89,10 +89,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button btnFinalizar;
+        private System.Windows.Forms.DataGridView gridPedidos;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnCancelar;
     }
 }
 

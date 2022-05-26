@@ -28,31 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.btnSalvar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.boxValor = new System.Windows.Forms.TextBox();
+            this.dataValidade = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
-            // button3
+            // btnCancelar
             // 
-            this.button3.Location = new System.Drawing.Point(160, 110);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(110, 23);
-            this.button3.TabIndex = 25;
-            this.button3.Text = "Cancelar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnCancelar.Location = new System.Drawing.Point(160, 110);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(110, 23);
+            this.btnCancelar.TabIndex = 25;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnSalvar
             // 
-            this.button2.Location = new System.Drawing.Point(36, 110);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(109, 23);
-            this.button2.TabIndex = 24;
-            this.button2.Text = "Salvar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnSalvar.Location = new System.Drawing.Point(36, 110);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(109, 23);
+            this.btnSalvar.TabIndex = 24;
+            this.btnSalvar.Text = "Salvar";
+            this.btnSalvar.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -72,31 +72,31 @@
             this.label1.TabIndex = 21;
             this.label1.Text = "Valor";
             // 
-            // textBox1
+            // boxValor
             // 
-            this.textBox1.Location = new System.Drawing.Point(36, 45);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(234, 20);
-            this.textBox1.TabIndex = 20;
+            this.boxValor.Location = new System.Drawing.Point(36, 45);
+            this.boxValor.Name = "boxValor";
+            this.boxValor.Size = new System.Drawing.Size(234, 20);
+            this.boxValor.TabIndex = 20;
             // 
-            // dateTimePicker1
+            // dataValidade
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(36, 84);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(234, 20);
-            this.dateTimePicker1.TabIndex = 26;
+            this.dataValidade.Location = new System.Drawing.Point(36, 84);
+            this.dataValidade.Name = "dataValidade";
+            this.dataValidade.Size = new System.Drawing.Size(234, 20);
+            this.dataValidade.TabIndex = 26;
             // 
             // CupomDesconto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(307, 163);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.dataValidade);
+            this.Controls.Add(this.btnCancelar);
+            this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.boxValor);
             this.Name = "CupomDesconto";
             this.Text = "Cadastro cupom de desconto";
             this.ResumeLayout(false);
@@ -106,12 +106,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.TextBox boxValor;
+        private System.Windows.Forms.DateTimePicker dataValidade;
     }
 }
 

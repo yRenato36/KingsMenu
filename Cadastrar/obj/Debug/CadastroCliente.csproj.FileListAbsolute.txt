@@ -9,3 +9,14 @@ C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\WindowsFormsApp1\Cadastrar\obj\D
 C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\WindowsFormsApp1\Cadastrar\obj\Debug\CadastroCliente.csproj.CoreCompileInputs.cache
 C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\WindowsFormsApp1\Cadastrar\obj\Debug\Cadastrar.exe
 C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\WindowsFormsApp1\Cadastrar\obj\Debug\Cadastrar.pdb
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Cadastrar\bin\Debug\Cadastrar.exe.config
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Cadastrar\bin\Debug\Cadastrar.exe
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Cadastrar\bin\Debug\Cadastrar.pdb
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Cadastrar\obj\Debug\CadastroCliente.csproj.AssemblyReference.cache
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Cadastrar\obj\Debug\CadastroCliente.csproj.SuggestedBindingRedirects.cache
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Cadastrar\obj\Debug\Cadastrar.CadastroCliente.resources
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Cadastrar\obj\Debug\Cadastrar.Properties.Resources.resources
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Cadastrar\obj\Debug\CadastroCliente.csproj.GenerateResource.cache
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Cadastrar\obj\Debug\CadastroCliente.csproj.CoreCompileInputs.cache
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Cadastrar\obj\Debug\Cadastrar.exe
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Cadastrar\obj\Debug\Cadastrar.pdb

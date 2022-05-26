@@ -28,33 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.boxNome = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.boxDesc = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.boxEstoque = new System.Windows.Forms.TextBox();
+            this.imgBox = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.boxValor = new System.Windows.Forms.TextBox();
+            this.btnCarregarImg = new System.Windows.Forms.Button();
+            this.btnSalvar = new System.Windows.Forms.Button();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.gridCategoria = new System.Windows.Forms.DataGridView();
             this.label5 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.btnNovaCateg = new System.Windows.Forms.Button();
+            this.btnAlteCateg = new System.Windows.Forms.Button();
+            this.checkBox = new System.Windows.Forms.CheckBox();
+            ((System.ComponentModel.ISupportInitialize)(this.imgBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridCategoria)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // boxNome
             // 
-            this.textBox1.Location = new System.Drawing.Point(170, 38);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(234, 20);
-            this.textBox1.TabIndex = 0;
+            this.boxNome.Location = new System.Drawing.Point(170, 38);
+            this.boxNome.Name = "boxNome";
+            this.boxNome.Size = new System.Drawing.Size(234, 20);
+            this.boxNome.TabIndex = 0;
             // 
             // label1
             // 
@@ -74,12 +74,12 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Descrição";
             // 
-            // textBox2
+            // boxDesc
             // 
-            this.textBox2.Location = new System.Drawing.Point(170, 77);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(234, 20);
-            this.textBox2.TabIndex = 2;
+            this.boxDesc.Location = new System.Drawing.Point(170, 77);
+            this.boxDesc.Name = "boxDesc";
+            this.boxDesc.Size = new System.Drawing.Size(234, 20);
+            this.boxDesc.TabIndex = 2;
             // 
             // label3
             // 
@@ -90,20 +90,20 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "Estoque";
             // 
-            // textBox3
+            // boxEstoque
             // 
-            this.textBox3.Location = new System.Drawing.Point(170, 118);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(234, 20);
-            this.textBox3.TabIndex = 4;
+            this.boxEstoque.Location = new System.Drawing.Point(170, 118);
+            this.boxEstoque.Name = "boxEstoque";
+            this.boxEstoque.Size = new System.Drawing.Size(234, 20);
+            this.boxEstoque.TabIndex = 4;
             // 
-            // pictureBox1
+            // imgBox
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(24, 20);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(140, 131);
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
+            this.imgBox.Location = new System.Drawing.Point(24, 20);
+            this.imgBox.Name = "imgBox";
+            this.imgBox.Size = new System.Drawing.Size(140, 131);
+            this.imgBox.TabIndex = 6;
+            this.imgBox.TabStop = false;
             // 
             // label4
             // 
@@ -114,47 +114,47 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "Valor";
             // 
-            // textBox4
+            // boxValor
             // 
-            this.textBox4.Location = new System.Drawing.Point(170, 158);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(234, 20);
-            this.textBox4.TabIndex = 7;
+            this.boxValor.Location = new System.Drawing.Point(170, 158);
+            this.boxValor.Name = "boxValor";
+            this.boxValor.Size = new System.Drawing.Size(234, 20);
+            this.boxValor.TabIndex = 7;
             // 
-            // button1
+            // btnCarregarImg
             // 
-            this.button1.Location = new System.Drawing.Point(24, 158);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(140, 23);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "Carregar imagem";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCarregarImg.Location = new System.Drawing.Point(24, 158);
+            this.btnCarregarImg.Name = "btnCarregarImg";
+            this.btnCarregarImg.Size = new System.Drawing.Size(140, 23);
+            this.btnCarregarImg.TabIndex = 9;
+            this.btnCarregarImg.Text = "Carregar imagem";
+            this.btnCarregarImg.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnSalvar
             // 
-            this.button2.Location = new System.Drawing.Point(24, 196);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(140, 23);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "Salvar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnSalvar.Location = new System.Drawing.Point(24, 196);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(140, 23);
+            this.btnSalvar.TabIndex = 10;
+            this.btnSalvar.Text = "Salvar";
+            this.btnSalvar.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnCancelar
             // 
-            this.button3.Location = new System.Drawing.Point(24, 225);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(140, 23);
-            this.button3.TabIndex = 11;
-            this.button3.Text = "Cancelar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnCancelar.Location = new System.Drawing.Point(24, 225);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(140, 23);
+            this.btnCancelar.TabIndex = 11;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // gridCategoria
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(170, 196);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(234, 90);
-            this.dataGridView1.TabIndex = 12;
+            this.gridCategoria.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridCategoria.Location = new System.Drawing.Point(170, 196);
+            this.gridCategoria.Name = "gridCategoria";
+            this.gridCategoria.Size = new System.Drawing.Size(234, 90);
+            this.gridCategoria.TabIndex = 12;
             // 
             // label5
             // 
@@ -165,60 +165,60 @@
             this.label5.TabIndex = 13;
             this.label5.Text = "Categoria";
             // 
-            // button5
+            // btnNovaCateg
             // 
-            this.button5.Location = new System.Drawing.Point(170, 292);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(100, 23);
-            this.button5.TabIndex = 14;
-            this.button5.Text = "Nova categoria";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnNovaCateg.Location = new System.Drawing.Point(170, 292);
+            this.btnNovaCateg.Name = "btnNovaCateg";
+            this.btnNovaCateg.Size = new System.Drawing.Size(100, 23);
+            this.btnNovaCateg.TabIndex = 14;
+            this.btnNovaCateg.Text = "Nova categoria";
+            this.btnNovaCateg.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnAlteCateg
             // 
-            this.button4.Location = new System.Drawing.Point(304, 292);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(100, 23);
-            this.button4.TabIndex = 15;
-            this.button4.Text = "Alterar categoria";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnAlteCateg.Location = new System.Drawing.Point(304, 292);
+            this.btnAlteCateg.Name = "btnAlteCateg";
+            this.btnAlteCateg.Size = new System.Drawing.Size(100, 23);
+            this.btnAlteCateg.TabIndex = 15;
+            this.btnAlteCateg.Text = "Alterar categoria";
+            this.btnAlteCateg.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
+            // checkBox
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(170, 321);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(90, 17);
-            this.checkBox1.TabIndex = 16;
-            this.checkBox1.Text = "Produto Ativo";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox.AutoSize = true;
+            this.checkBox.Location = new System.Drawing.Point(170, 321);
+            this.checkBox.Name = "checkBox";
+            this.checkBox.Size = new System.Drawing.Size(90, 17);
+            this.checkBox.TabIndex = 16;
+            this.checkBox.Text = "Produto Ativo";
+            this.checkBox.UseVisualStyleBackColor = true;
             // 
             // CadastroProdutos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(445, 372);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.checkBox);
+            this.Controls.Add(this.btnAlteCateg);
+            this.Controls.Add(this.btnNovaCateg);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.gridCategoria);
+            this.Controls.Add(this.btnCancelar);
+            this.Controls.Add(this.btnSalvar);
+            this.Controls.Add(this.btnCarregarImg);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.boxValor);
+            this.Controls.Add(this.imgBox);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.boxEstoque);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.boxDesc);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.boxNome);
             this.Name = "CadastroProdutos";
-            this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Text = "Cadastro de Produtos";
+            ((System.ComponentModel.ISupportInitialize)(this.imgBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridCategoria)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -226,23 +226,23 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox boxNome;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox boxDesc;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox boxEstoque;
+        private System.Windows.Forms.PictureBox imgBox;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.TextBox boxValor;
+        private System.Windows.Forms.Button btnCarregarImg;
+        private System.Windows.Forms.Button btnSalvar;
+        private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.DataGridView gridCategoria;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Button btnNovaCateg;
+        private System.Windows.Forms.Button btnAlteCateg;
+        private System.Windows.Forms.CheckBox checkBox;
     }
 }
 
