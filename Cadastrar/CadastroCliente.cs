@@ -18,7 +18,6 @@ namespace Cadastrar
             InitializeComponent();
         }
 
-
         private void btnLogin_Click(object sender, EventArgs e)
         {
 
@@ -26,16 +25,6 @@ namespace Cadastrar
 
         private void CadastroCliente_Load(object sender, EventArgs e)
         {
-            try
-            {
-                using (SqlConnection conn = new SqlConnection(connect.StrCon))
-                    conn.Open();
-            
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
         }
     }
 }

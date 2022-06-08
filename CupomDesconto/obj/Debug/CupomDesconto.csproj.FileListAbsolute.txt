@@ -1,0 +1,11 @@
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\CupomDesconto\bin\Debug\CupomDesconto.exe.config
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\CupomDesconto\bin\Debug\CupomDesconto.exe
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\CupomDesconto\bin\Debug\CupomDesconto.pdb
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\CupomDesconto\obj\Debug\CupomDesconto.csproj.AssemblyReference.cache
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\CupomDesconto\obj\Debug\CupomDesconto.csproj.SuggestedBindingRedirects.cache
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\CupomDesconto\obj\Debug\CupomDesconto.CupomDesconto.resources
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\CupomDesconto\obj\Debug\CupomDesconto.Properties.Resources.resources
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\CupomDesconto\obj\Debug\CupomDesconto.csproj.GenerateResource.cache
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\CupomDesconto\obj\Debug\CupomDesconto.csproj.CoreCompileInputs.cache
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\CupomDesconto\obj\Debug\CupomDesconto.exe
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\CupomDesconto\obj\Debug\CupomDesconto.pdb

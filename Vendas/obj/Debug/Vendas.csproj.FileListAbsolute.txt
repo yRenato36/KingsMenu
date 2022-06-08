@@ -1,0 +1,11 @@
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Vendas\bin\Debug\Vendas.exe.config
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Vendas\bin\Debug\Vendas.exe
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Vendas\bin\Debug\Vendas.pdb
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Vendas\obj\Debug\Vendas.csproj.AssemblyReference.cache
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Vendas\obj\Debug\Vendas.csproj.SuggestedBindingRedirects.cache
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Vendas\obj\Debug\Vendas.Properties.Resources.resources
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Vendas\obj\Debug\Vendas.Vendas.resources
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Vendas\obj\Debug\Vendas.csproj.GenerateResource.cache
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Vendas\obj\Debug\Vendas.csproj.CoreCompileInputs.cache
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Vendas\obj\Debug\Vendas.exe
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Vendas\obj\Debug\Vendas.pdb

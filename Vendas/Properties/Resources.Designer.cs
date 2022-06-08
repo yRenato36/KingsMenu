@@ -63,6 +63,16 @@ namespace Vendas.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _066f195a5f87ea2b7f35a4cb1b11d7b3_desenho_geometrico_de_fundo_vermelho {
+            get {
+                object obj = ResourceManager.GetObject("066f195a5f87ea2b7f35a4cb1b11d7b3-desenho-geometrico-de-fundo-vermelho", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap imgcarrinho {
             get {
                 object obj = ResourceManager.GetObject("imgcarrinho", resourceCulture);

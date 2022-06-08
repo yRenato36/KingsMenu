@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Vendas));
             this.label1 = new System.Windows.Forms.Label();
             this.boxPesquisa = new System.Windows.Forms.TextBox();
             this.btnPesquisar = new System.Windows.Forms.Button();
@@ -41,9 +42,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(27, 40);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 13);
+            this.label1.Size = new System.Drawing.Size(58, 13);
             this.label1.TabIndex = 23;
             this.label1.Text = "Pesquisa";
             // 
@@ -65,6 +69,7 @@
             // 
             // gridPesquisa
             // 
+            this.gridPesquisa.BackgroundColor = System.Drawing.Color.White;
             this.gridPesquisa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gridPesquisa.Location = new System.Drawing.Point(27, 88);
             this.gridPesquisa.Name = "gridPesquisa";
@@ -82,6 +87,7 @@
             // 
             // imgCarrinho
             // 
+            this.imgCarrinho.BackColor = System.Drawing.Color.Transparent;
             this.imgCarrinho.Image = global::Vendas.Properties.Resources.imgcarrinho;
             this.imgCarrinho.Location = new System.Drawing.Point(305, 16);
             this.imgCarrinho.Name = "imgCarrinho";
@@ -96,6 +102,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = global::Vendas.Properties.Resources._066f195a5f87ea2b7f35a4cb1b11d7b3_desenho_geometrico_de_fundo_vermelho;
             this.ClientSize = new System.Drawing.Size(370, 311);
             this.Controls.Add(this.imgCarrinho);
             this.Controls.Add(this.btnAddCarrinho);
@@ -103,6 +110,8 @@
             this.Controls.Add(this.btnPesquisar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.boxPesquisa);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Vendas";
             this.Text = "Vendas";
             ((System.ComponentModel.ISupportInitialize)(this.gridPesquisa)).EndInit();

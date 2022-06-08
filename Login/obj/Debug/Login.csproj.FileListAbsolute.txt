@@ -1,0 +1,11 @@
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Login\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Login\bin\Debug\WindowsFormsApp1.exe
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Login\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Login\obj\Debug\Login.csproj.AssemblyReference.cache
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Login\obj\Debug\Login.csproj.SuggestedBindingRedirects.cache
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Login\obj\Debug\WindowsFormsApp1.Login.resources
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Login\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Login\obj\Debug\Login.csproj.GenerateResource.cache
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Login\obj\Debug\Login.csproj.CoreCompileInputs.cache
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Login\obj\Debug\WindowsFormsApp1.exe
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Login\obj\Debug\WindowsFormsApp1.pdb

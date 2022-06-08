@@ -1,0 +1,11 @@
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Carrinho\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Carrinho\bin\Debug\WindowsFormsApp2.exe
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Carrinho\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Carrinho\obj\Debug\Carrinho.csproj.AssemblyReference.cache
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Carrinho\obj\Debug\Carrinho.csproj.SuggestedBindingRedirects.cache
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Carrinho\obj\Debug\WindowsFormsApp2.Carrinho.resources
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Carrinho\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Carrinho\obj\Debug\Carrinho.csproj.GenerateResource.cache
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Carrinho\obj\Debug\Carrinho.csproj.CoreCompileInputs.cache
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Carrinho\obj\Debug\WindowsFormsApp2.exe
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\Carrinho\obj\Debug\WindowsFormsApp2.pdb
