@@ -108,6 +108,7 @@
             this.lblCadastrar.Size = new System.Drawing.Size(61, 13);
             this.lblCadastrar.TabIndex = 6;
             this.lblCadastrar.Text = "Cadastrar";
+            this.lblCadastrar.Click += new System.EventHandler(this.lblCadastrar_Click);
             // 
             // Login
             // 

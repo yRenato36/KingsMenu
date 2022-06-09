@@ -56,10 +56,10 @@
             this.boxComple = new System.Windows.Forms.TextBox();
             this.boxCPF = new System.Windows.Forms.MaskedTextBox();
             this.boxTel = new System.Windows.Forms.MaskedTextBox();
-            this.boxCEP = new System.Windows.Forms.MaskedTextBox();
             this.boxEstado = new System.Windows.Forms.TextBox();
-            this.boxData = new System.Windows.Forms.MaskedTextBox();
             this.label16 = new System.Windows.Forms.Label();
+            this.boxCEP = new System.Windows.Forms.MaskedTextBox();
+            this.boxData = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // label4
@@ -123,7 +123,7 @@
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(278, 43);
             this.btnLogin.TabIndex = 7;
-            this.btnLogin.Text = "Login";
+            this.btnLogin.Text = "Cadastrar";
             this.btnLogin.UseVisualStyleBackColor = true;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
@@ -131,6 +131,7 @@
             // 
             this.boxSenha.Location = new System.Drawing.Point(71, 149);
             this.boxSenha.Name = "boxSenha";
+            this.boxSenha.PasswordChar = '*';
             this.boxSenha.Size = new System.Drawing.Size(278, 20);
             this.boxSenha.TabIndex = 15;
             // 
@@ -176,11 +177,13 @@
             this.boxEmail.Name = "boxEmail";
             this.boxEmail.Size = new System.Drawing.Size(278, 20);
             this.boxEmail.TabIndex = 18;
+            this.boxEmail.Validated += new System.EventHandler(this.boxEmail_Validated);
             // 
             // boxConfSenha
             // 
             this.boxConfSenha.Location = new System.Drawing.Point(71, 188);
             this.boxConfSenha.Name = "boxConfSenha";
+            this.boxConfSenha.PasswordChar = '*';
             this.boxConfSenha.Size = new System.Drawing.Size(278, 20);
             this.boxConfSenha.TabIndex = 21;
             // 
@@ -304,9 +307,9 @@
             this.label15.ForeColor = System.Drawing.Color.White;
             this.label15.Location = new System.Drawing.Point(275, 293);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(83, 13);
+            this.label15.Size = new System.Drawing.Size(82, 13);
             this.label15.TabIndex = 36;
-            this.label15.Text = "Compremento";
+            this.label15.Text = "Complemento";
             // 
             // boxComple
             // 
@@ -318,11 +321,12 @@
             // boxCPF
             // 
             this.boxCPF.Location = new System.Drawing.Point(71, 69);
-            this.boxCPF.Mask = "000.000.000-00";
+            this.boxCPF.Mask = "000,000,000-00";
             this.boxCPF.Name = "boxCPF";
             this.boxCPF.Size = new System.Drawing.Size(89, 20);
             this.boxCPF.TabIndex = 37;
             this.boxCPF.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
+            this.boxCPF.Validated += new System.EventHandler(this.boxCPF_Validated);
             // 
             // boxTel
             // 
@@ -333,28 +337,12 @@
             this.boxTel.TabIndex = 38;
             this.boxTel.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             // 
-            // boxCEP
-            // 
-            this.boxCEP.Location = new System.Drawing.Point(71, 269);
-            this.boxCEP.Name = "boxCEP";
-            this.boxCEP.Size = new System.Drawing.Size(80, 20);
-            this.boxCEP.TabIndex = 39;
-            // 
             // boxEstado
             // 
             this.boxEstado.Location = new System.Drawing.Point(157, 269);
             this.boxEstado.Name = "boxEstado";
             this.boxEstado.Size = new System.Drawing.Size(41, 20);
             this.boxEstado.TabIndex = 40;
-            // 
-            // boxData
-            // 
-            this.boxData.Location = new System.Drawing.Point(269, 69);
-            this.boxData.Mask = "00 /00 /0000";
-            this.boxData.Name = "boxData";
-            this.boxData.Size = new System.Drawing.Size(78, 20);
-            this.boxData.TabIndex = 42;
-            this.boxData.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             // 
             // label16
             // 
@@ -368,6 +356,26 @@
             this.label16.TabIndex = 41;
             this.label16.Text = "Data de Nascimento";
             // 
+            // boxCEP
+            // 
+            this.boxCEP.Location = new System.Drawing.Point(71, 269);
+            this.boxCEP.Mask = "00000-000";
+            this.boxCEP.Name = "boxCEP";
+            this.boxCEP.Size = new System.Drawing.Size(80, 20);
+            this.boxCEP.TabIndex = 43;
+            this.boxCEP.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
+            this.boxCEP.Validated += new System.EventHandler(this.boxCEP_Validated);
+            // 
+            // boxData
+            // 
+            this.boxData.CustomFormat = "dd/MM/yyyy";
+            this.boxData.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.boxData.Location = new System.Drawing.Point(270, 69);
+            this.boxData.Name = "boxData";
+            this.boxData.Size = new System.Drawing.Size(87, 20);
+            this.boxData.TabIndex = 44;
+            this.boxData.Value = new System.DateTime(2022, 6, 9, 0, 0, 0, 0);
+            // 
             // CadastroCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -376,9 +384,9 @@
             this.BackgroundImage = global::Cadastrar.Properties.Resources._066f195a5f87ea2b7f35a4cb1b11d7b3_desenho_geometrico_de_fundo_vermelho;
             this.ClientSize = new System.Drawing.Size(415, 414);
             this.Controls.Add(this.boxData);
+            this.Controls.Add(this.boxCEP);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.boxEstado);
-            this.Controls.Add(this.boxCEP);
             this.Controls.Add(this.boxTel);
             this.Controls.Add(this.boxCPF);
             this.Controls.Add(this.label15);
@@ -409,7 +417,6 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "CadastroCliente";
             this.Text = "Cadastro de Cliente";
-            this.Load += new System.EventHandler(this.CadastroCliente_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -444,10 +451,10 @@
         private System.Windows.Forms.TextBox boxComple;
         private System.Windows.Forms.MaskedTextBox boxCPF;
         private System.Windows.Forms.MaskedTextBox boxTel;
-        private System.Windows.Forms.MaskedTextBox boxCEP;
         private System.Windows.Forms.TextBox boxEstado;
-        private System.Windows.Forms.MaskedTextBox boxData;
         private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.MaskedTextBox boxCEP;
+        private System.Windows.Forms.DateTimePicker boxData;
     }
 }
 

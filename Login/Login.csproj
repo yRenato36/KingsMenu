@@ -83,5 +83,11 @@
   <ItemGroup>
     <None Include="Resources\066f195a5f87ea2b7f35a4cb1b11d7b3-desenho-geometrico-de-fundo-vermelho.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cadastrar\CadastroCliente.csproj">
+      <Project>{D6191E07-CA34-4B2B-A137-66483EC6F20E}</Project>
+      <Name>CadastroCliente</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

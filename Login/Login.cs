@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Cadastrar;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,14 @@ namespace WindowsFormsApp1
         public Login()
         {
             InitializeComponent();
+        }
+
+        private void lblCadastrar_Click(object sender, EventArgs e)
+        {
+            CadastroCliente form = new CadastroCliente();
+            this.Hide();
+            form.ShowDialog();
+            this.Show();
         }
     }
 }
