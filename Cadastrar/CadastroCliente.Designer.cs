@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CadastroCliente));
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.boxName = new System.Windows.Forms.TextBox();
@@ -62,30 +60,6 @@
             this.boxData = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(66, 381);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(61, 13);
-            this.label4.TabIndex = 13;
-            this.label4.Text = "Cadastrar";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(245, 381);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(119, 13);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "Esqueceu a senha?";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -115,14 +89,14 @@
             this.boxName.Location = new System.Drawing.Point(71, 28);
             this.boxName.Name = "boxName";
             this.boxName.Size = new System.Drawing.Size(278, 20);
-            this.boxName.TabIndex = 8;
+            this.boxName.TabIndex = 0;
             // 
             // btnLogin
             // 
             this.btnLogin.Location = new System.Drawing.Point(69, 335);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(278, 43);
-            this.btnLogin.TabIndex = 7;
+            this.btnLogin.TabIndex = 14;
             this.btnLogin.Text = "Cadastrar";
             this.btnLogin.UseVisualStyleBackColor = true;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
@@ -133,7 +107,7 @@
             this.boxSenha.Name = "boxSenha";
             this.boxSenha.PasswordChar = '*';
             this.boxSenha.Size = new System.Drawing.Size(278, 20);
-            this.boxSenha.TabIndex = 15;
+            this.boxSenha.TabIndex = 5;
             // 
             // label5
             // 
@@ -176,7 +150,7 @@
             this.boxEmail.Location = new System.Drawing.Point(71, 111);
             this.boxEmail.Name = "boxEmail";
             this.boxEmail.Size = new System.Drawing.Size(278, 20);
-            this.boxEmail.TabIndex = 18;
+            this.boxEmail.TabIndex = 4;
             this.boxEmail.Validated += new System.EventHandler(this.boxEmail_Validated);
             // 
             // boxConfSenha
@@ -185,7 +159,7 @@
             this.boxConfSenha.Name = "boxConfSenha";
             this.boxConfSenha.PasswordChar = '*';
             this.boxConfSenha.Size = new System.Drawing.Size(278, 20);
-            this.boxConfSenha.TabIndex = 21;
+            this.boxConfSenha.TabIndex = 6;
             // 
             // label8
             // 
@@ -204,7 +178,7 @@
             this.boxRua.Location = new System.Drawing.Point(71, 230);
             this.boxRua.Name = "boxRua";
             this.boxRua.Size = new System.Drawing.Size(278, 20);
-            this.boxRua.TabIndex = 23;
+            this.boxRua.TabIndex = 7;
             // 
             // label9
             // 
@@ -235,14 +209,14 @@
             this.boxNum.Location = new System.Drawing.Point(71, 309);
             this.boxNum.Name = "boxNum";
             this.boxNum.Size = new System.Drawing.Size(52, 20);
-            this.boxNum.TabIndex = 25;
+            this.boxNum.TabIndex = 11;
             // 
             // boxBairro
             // 
             this.boxBairro.Location = new System.Drawing.Point(129, 309);
             this.boxBairro.Name = "boxBairro";
             this.boxBairro.Size = new System.Drawing.Size(142, 20);
-            this.boxBairro.TabIndex = 27;
+            this.boxBairro.TabIndex = 12;
             // 
             // label11
             // 
@@ -297,7 +271,7 @@
             this.boxCidade.Location = new System.Drawing.Point(204, 269);
             this.boxCidade.Name = "boxCidade";
             this.boxCidade.Size = new System.Drawing.Size(145, 20);
-            this.boxCidade.TabIndex = 33;
+            this.boxCidade.TabIndex = 10;
             // 
             // label15
             // 
@@ -316,7 +290,7 @@
             this.boxComple.Location = new System.Drawing.Point(277, 309);
             this.boxComple.Name = "boxComple";
             this.boxComple.Size = new System.Drawing.Size(72, 20);
-            this.boxComple.TabIndex = 35;
+            this.boxComple.TabIndex = 13;
             // 
             // boxCPF
             // 
@@ -324,7 +298,7 @@
             this.boxCPF.Mask = "000,000,000-00";
             this.boxCPF.Name = "boxCPF";
             this.boxCPF.Size = new System.Drawing.Size(89, 20);
-            this.boxCPF.TabIndex = 37;
+            this.boxCPF.TabIndex = 1;
             this.boxCPF.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             this.boxCPF.Validated += new System.EventHandler(this.boxCPF_Validated);
             // 
@@ -334,7 +308,7 @@
             this.boxTel.Mask = "(00) 0 0000-0000";
             this.boxTel.Name = "boxTel";
             this.boxTel.Size = new System.Drawing.Size(90, 20);
-            this.boxTel.TabIndex = 38;
+            this.boxTel.TabIndex = 2;
             this.boxTel.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             // 
             // boxEstado
@@ -342,7 +316,7 @@
             this.boxEstado.Location = new System.Drawing.Point(157, 269);
             this.boxEstado.Name = "boxEstado";
             this.boxEstado.Size = new System.Drawing.Size(41, 20);
-            this.boxEstado.TabIndex = 40;
+            this.boxEstado.TabIndex = 9;
             // 
             // label16
             // 
@@ -362,7 +336,7 @@
             this.boxCEP.Mask = "00000-000";
             this.boxCEP.Name = "boxCEP";
             this.boxCEP.Size = new System.Drawing.Size(80, 20);
-            this.boxCEP.TabIndex = 43;
+            this.boxCEP.TabIndex = 8;
             this.boxCEP.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             this.boxCEP.Validated += new System.EventHandler(this.boxCEP_Validated);
             // 
@@ -373,7 +347,7 @@
             this.boxData.Location = new System.Drawing.Point(270, 69);
             this.boxData.Name = "boxData";
             this.boxData.Size = new System.Drawing.Size(87, 20);
-            this.boxData.TabIndex = 44;
+            this.boxData.TabIndex = 3;
             this.boxData.Value = new System.DateTime(2022, 6, 9, 0, 0, 0, 0);
             // 
             // CadastroCliente
@@ -408,8 +382,6 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.boxSenha);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.boxName);
@@ -423,9 +395,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox boxName;

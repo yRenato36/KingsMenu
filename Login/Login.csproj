@@ -88,6 +88,18 @@
       <Project>{D6191E07-CA34-4B2B-A137-66483EC6F20E}</Project>
       <Name>CadastroCliente</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Carrinho\Carrinho.csproj">
+      <Project>{6DB4DAA1-3A4B-43B7-97F2-5142589584F0}</Project>
+      <Name>Carrinho</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ListaPedidos\ListaPedidos.csproj">
+      <Project>{F67C550C-8DDF-4733-8823-C09221F6726D}</Project>
+      <Name>ListaPedidos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vendas\Vendas.csproj">
+      <Project>{49D4F37E-AB7D-4CCF-9AEE-F7FD6B1A5491}</Project>
+      <Name>Vendas</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

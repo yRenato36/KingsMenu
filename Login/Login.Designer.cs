@@ -43,23 +43,25 @@
             this.btnLogin.Location = new System.Drawing.Point(37, 129);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(278, 43);
-            this.btnLogin.TabIndex = 0;
+            this.btnLogin.TabIndex = 2;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // boxUsuario
             // 
             this.boxUsuario.Location = new System.Drawing.Point(37, 51);
             this.boxUsuario.Name = "boxUsuario";
             this.boxUsuario.Size = new System.Drawing.Size(278, 20);
-            this.boxUsuario.TabIndex = 1;
+            this.boxUsuario.TabIndex = 0;
             // 
             // boxSenha
             // 
             this.boxSenha.Location = new System.Drawing.Point(37, 92);
             this.boxSenha.Name = "boxSenha";
+            this.boxSenha.PasswordChar = '*';
             this.boxSenha.Size = new System.Drawing.Size(278, 20);
-            this.boxSenha.TabIndex = 2;
+            this.boxSenha.TabIndex = 1;
             // 
             // label1
             // 
@@ -94,7 +96,7 @@
             this.lblEsqueceu.Location = new System.Drawing.Point(213, 188);
             this.lblEsqueceu.Name = "lblEsqueceu";
             this.lblEsqueceu.Size = new System.Drawing.Size(119, 13);
-            this.lblEsqueceu.TabIndex = 5;
+            this.lblEsqueceu.TabIndex = 4;
             this.lblEsqueceu.Text = "Esqueceu a senha?";
             // 
             // lblCadastrar
@@ -106,7 +108,7 @@
             this.lblCadastrar.Location = new System.Drawing.Point(34, 188);
             this.lblCadastrar.Name = "lblCadastrar";
             this.lblCadastrar.Size = new System.Drawing.Size(61, 13);
-            this.lblCadastrar.TabIndex = 6;
+            this.lblCadastrar.TabIndex = 3;
             this.lblCadastrar.Text = "Cadastrar";
             this.lblCadastrar.Click += new System.EventHandler(this.lblCadastrar_Click);
             // 

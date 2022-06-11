@@ -16,5 +16,10 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
         }
+
+        private void btnFInalizarPed_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

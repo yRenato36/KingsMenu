@@ -83,5 +83,15 @@
   <ItemGroup>
     <None Include="Resources\066f195a5f87ea2b7f35a4cb1b11d7b3-desenho-geometrico-de-fundo-vermelho.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CupomDesconto\CupomDesconto.csproj">
+      <Project>{94FC21F9-AF28-436B-96D9-5DCE5FB922C6}</Project>
+      <Name>CupomDesconto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tela inicio\ListarProdutos.csproj">
+      <Project>{1C2F3CD4-086F-4F07-97EB-1D46BCE56D0B}</Project>
+      <Name>ListarProdutos</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -42,18 +42,20 @@
             this.btnCancelar.Location = new System.Drawing.Point(160, 110);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(110, 23);
-            this.btnCancelar.TabIndex = 25;
+            this.btnCancelar.TabIndex = 3;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnSalvar
             // 
             this.btnSalvar.Location = new System.Drawing.Point(36, 110);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(109, 23);
-            this.btnSalvar.TabIndex = 24;
+            this.btnSalvar.TabIndex = 2;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // label2
             // 
@@ -84,14 +86,15 @@
             this.boxValor.Location = new System.Drawing.Point(36, 45);
             this.boxValor.Name = "boxValor";
             this.boxValor.Size = new System.Drawing.Size(234, 20);
-            this.boxValor.TabIndex = 20;
+            this.boxValor.TabIndex = 0;
             // 
             // dataValidade
             // 
+            this.dataValidade.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dataValidade.Location = new System.Drawing.Point(36, 84);
             this.dataValidade.Name = "dataValidade";
             this.dataValidade.Size = new System.Drawing.Size(234, 20);
-            this.dataValidade.TabIndex = 26;
+            this.dataValidade.TabIndex = 1;
             // 
             // CupomDesconto
             // 

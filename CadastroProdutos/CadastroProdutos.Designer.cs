@@ -46,6 +46,8 @@
             this.btnNovaCateg = new System.Windows.Forms.Button();
             this.btnAlteCateg = new System.Windows.Forms.Button();
             this.checkBox = new System.Windows.Forms.CheckBox();
+            this.Categoria = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Descrição = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.imgBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridCategoria)).BeginInit();
             this.SuspendLayout();
@@ -86,7 +88,7 @@
             this.boxDesc.Location = new System.Drawing.Point(170, 77);
             this.boxDesc.Name = "boxDesc";
             this.boxDesc.Size = new System.Drawing.Size(234, 20);
-            this.boxDesc.TabIndex = 2;
+            this.boxDesc.TabIndex = 1;
             // 
             // label3
             // 
@@ -105,7 +107,7 @@
             this.boxEstoque.Location = new System.Drawing.Point(170, 118);
             this.boxEstoque.Name = "boxEstoque";
             this.boxEstoque.Size = new System.Drawing.Size(234, 20);
-            this.boxEstoque.TabIndex = 4;
+            this.boxEstoque.TabIndex = 2;
             // 
             // imgBox
             // 
@@ -113,6 +115,7 @@
             this.imgBox.Location = new System.Drawing.Point(24, 20);
             this.imgBox.Name = "imgBox";
             this.imgBox.Size = new System.Drawing.Size(140, 131);
+            this.imgBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imgBox.TabIndex = 6;
             this.imgBox.TabStop = false;
             // 
@@ -133,43 +136,51 @@
             this.boxValor.Location = new System.Drawing.Point(170, 158);
             this.boxValor.Name = "boxValor";
             this.boxValor.Size = new System.Drawing.Size(234, 20);
-            this.boxValor.TabIndex = 7;
+            this.boxValor.TabIndex = 3;
             // 
             // btnCarregarImg
             // 
             this.btnCarregarImg.Location = new System.Drawing.Point(24, 158);
             this.btnCarregarImg.Name = "btnCarregarImg";
             this.btnCarregarImg.Size = new System.Drawing.Size(140, 23);
-            this.btnCarregarImg.TabIndex = 9;
+            this.btnCarregarImg.TabIndex = 8;
             this.btnCarregarImg.Text = "Carregar imagem";
             this.btnCarregarImg.UseVisualStyleBackColor = true;
+            this.btnCarregarImg.Click += new System.EventHandler(this.btnCarregarImg_Click);
             // 
             // btnSalvar
             // 
             this.btnSalvar.Location = new System.Drawing.Point(24, 196);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(140, 23);
-            this.btnSalvar.TabIndex = 10;
+            this.btnSalvar.TabIndex = 9;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // btnCancelar
             // 
             this.btnCancelar.Location = new System.Drawing.Point(24, 225);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(140, 23);
-            this.btnCancelar.TabIndex = 11;
+            this.btnCancelar.TabIndex = 10;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             // 
             // gridCategoria
             // 
+            this.gridCategoria.AllowUserToAddRows = false;
+            this.gridCategoria.AllowUserToDeleteRows = false;
             this.gridCategoria.BackgroundColor = System.Drawing.Color.White;
             this.gridCategoria.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridCategoria.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Categoria,
+            this.Descrição});
             this.gridCategoria.Location = new System.Drawing.Point(170, 196);
             this.gridCategoria.Name = "gridCategoria";
+            this.gridCategoria.ReadOnly = true;
             this.gridCategoria.Size = new System.Drawing.Size(234, 90);
-            this.gridCategoria.TabIndex = 12;
+            this.gridCategoria.TabIndex = 4;
             // 
             // label5
             // 
@@ -188,16 +199,17 @@
             this.btnNovaCateg.Location = new System.Drawing.Point(170, 292);
             this.btnNovaCateg.Name = "btnNovaCateg";
             this.btnNovaCateg.Size = new System.Drawing.Size(100, 23);
-            this.btnNovaCateg.TabIndex = 14;
+            this.btnNovaCateg.TabIndex = 5;
             this.btnNovaCateg.Text = "Nova categoria";
             this.btnNovaCateg.UseVisualStyleBackColor = true;
+            this.btnNovaCateg.Click += new System.EventHandler(this.btnNovaCateg_Click);
             // 
             // btnAlteCateg
             // 
             this.btnAlteCateg.Location = new System.Drawing.Point(304, 292);
             this.btnAlteCateg.Name = "btnAlteCateg";
             this.btnAlteCateg.Size = new System.Drawing.Size(100, 23);
-            this.btnAlteCateg.TabIndex = 15;
+            this.btnAlteCateg.TabIndex = 6;
             this.btnAlteCateg.Text = "Alterar categoria";
             this.btnAlteCateg.UseVisualStyleBackColor = true;
             // 
@@ -210,9 +222,21 @@
             this.checkBox.Location = new System.Drawing.Point(170, 321);
             this.checkBox.Name = "checkBox";
             this.checkBox.Size = new System.Drawing.Size(103, 17);
-            this.checkBox.TabIndex = 16;
+            this.checkBox.TabIndex = 7;
             this.checkBox.Text = "Produto Ativo";
             this.checkBox.UseVisualStyleBackColor = false;
+            // 
+            // Categoria
+            // 
+            this.Categoria.HeaderText = "Categoria";
+            this.Categoria.Name = "Categoria";
+            this.Categoria.ReadOnly = true;
+            // 
+            // Descrição
+            // 
+            this.Descrição.HeaderText = "Descrição";
+            this.Descrição.Name = "Descrição";
+            this.Descrição.ReadOnly = true;
             // 
             // CadastroProdutos
             // 
@@ -266,6 +290,8 @@
         private System.Windows.Forms.Button btnNovaCateg;
         private System.Windows.Forms.Button btnAlteCateg;
         private System.Windows.Forms.CheckBox checkBox;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Categoria;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Descrição;
     }
 }
 

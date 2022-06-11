@@ -95,6 +95,7 @@ namespace Cadastrar
         {
             return (boxSenha.Text == boxConfSenha.Text);
         }
+        //referência de validação para campos vazios
         public bool ValidaCamposNotNull(string campo)
         {
             return campo.Length > 0;
@@ -104,26 +105,8 @@ namespace Cadastrar
         public CadastroCliente()
         {
             InitializeComponent();
-            StreamReader sr = new StreamReader("C:\\Users\\rs323\\Desktop\\CadastroClientes.txt");
-            string line = sr.ReadLine();
-
-            string[] dados = line.Split('|');
-            boxName.Text = dados[0];
-            boxCPF.Text = dados[1];
-            boxTel.Text = dados[2];
-            boxData.Value = DateTime.ParseExact(dados[3], "dd/MM/yyyy", CultureInfo.InvariantCulture);
-            boxEmail.Text = dados[4];
-            boxSenha.Text = dados[5];
-            boxConfSenha.Text = dados[6];
-            boxRua.Text = dados[7];
-            boxCEP.Text = dados[8];
-            boxEstado.Text = dados[9];
-            boxCidade.Text = dados[10];
-            boxNum.Text = dados[11];
-            boxBairro.Text = dados[12];
-            boxComple.Text = dados[13];
-            sr.Close();
         }
+
         //função criadora, cria uma arquivo .txt com os dados cadastrados
         public void SalvarCadastro()
         {

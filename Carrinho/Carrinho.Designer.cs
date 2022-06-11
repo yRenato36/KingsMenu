@@ -57,23 +57,24 @@
             this.gridPedidos.Location = new System.Drawing.Point(39, 42);
             this.gridPedidos.Name = "gridPedidos";
             this.gridPedidos.Size = new System.Drawing.Size(454, 118);
-            this.gridPedidos.TabIndex = 1;
+            this.gridPedidos.TabIndex = 0;
             // 
             // btnFInalizarPed
             // 
             this.btnFInalizarPed.Location = new System.Drawing.Point(279, 213);
             this.btnFInalizarPed.Name = "btnFInalizarPed";
             this.btnFInalizarPed.Size = new System.Drawing.Size(153, 23);
-            this.btnFInalizarPed.TabIndex = 2;
+            this.btnFInalizarPed.TabIndex = 3;
             this.btnFInalizarPed.Text = "Finalizar pedido";
             this.btnFInalizarPed.UseVisualStyleBackColor = true;
+            this.btnFInalizarPed.Click += new System.EventHandler(this.btnFInalizarPed_Click);
             // 
             // btnRemoverProd
             // 
             this.btnRemoverProd.Location = new System.Drawing.Point(39, 166);
             this.btnRemoverProd.Name = "btnRemoverProd";
             this.btnRemoverProd.Size = new System.Drawing.Size(153, 23);
-            this.btnRemoverProd.TabIndex = 3;
+            this.btnRemoverProd.TabIndex = 1;
             this.btnRemoverProd.Text = "Remover produto";
             this.btnRemoverProd.UseVisualStyleBackColor = true;
             // 
@@ -94,7 +95,7 @@
             this.boxCupom.Location = new System.Drawing.Point(39, 215);
             this.boxCupom.Name = "boxCupom";
             this.boxCupom.Size = new System.Drawing.Size(234, 20);
-            this.boxCupom.TabIndex = 24;
+            this.boxCupom.TabIndex = 2;
             // 
             // Carrinho
             // 

@@ -54,7 +54,7 @@
             this.boxDesc.Location = new System.Drawing.Point(24, 83);
             this.boxDesc.Name = "boxDesc";
             this.boxDesc.Size = new System.Drawing.Size(234, 20);
-            this.boxDesc.TabIndex = 16;
+            this.boxDesc.TabIndex = 2;
             // 
             // label1
             // 
@@ -73,14 +73,14 @@
             this.boxNome.Location = new System.Drawing.Point(24, 44);
             this.boxNome.Name = "boxNome";
             this.boxNome.Size = new System.Drawing.Size(234, 20);
-            this.boxNome.TabIndex = 14;
+            this.boxNome.TabIndex = 0;
             // 
             // btnCancelar
             // 
             this.btnCancelar.Location = new System.Drawing.Point(148, 109);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(110, 23);
-            this.btnCancelar.TabIndex = 19;
+            this.btnCancelar.TabIndex = 4;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             // 
@@ -89,9 +89,10 @@
             this.btnSalvar.Location = new System.Drawing.Point(24, 109);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(109, 23);
-            this.btnSalvar.TabIndex = 18;
+            this.btnSalvar.TabIndex = 3;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // CadastroCategoria
             // 

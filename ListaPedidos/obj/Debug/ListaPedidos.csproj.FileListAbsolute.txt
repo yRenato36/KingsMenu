@@ -9,3 +9,16 @@ C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\ListaPedidos\obj\Deb
 C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\ListaPedidos\obj\Debug\ListaPedidos.csproj.CoreCompileInputs.cache
 C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\ListaPedidos\obj\Debug\ListaPedidos.exe
 C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\ListaPedidos\obj\Debug\ListaPedidos.pdb
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\ListaPedidos\bin\Debug\CupomDesconto.exe
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\ListaPedidos\bin\Debug\Tela inicio.exe
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\ListaPedidos\bin\Debug\CadastroProdutos.exe
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\ListaPedidos\bin\Debug\CadastroCategoria.exe
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\ListaPedidos\bin\Debug\CupomDesconto.pdb
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\ListaPedidos\bin\Debug\CupomDesconto.exe.config
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\ListaPedidos\bin\Debug\Tela inicio.pdb
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\ListaPedidos\bin\Debug\Tela inicio.exe.config
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\ListaPedidos\bin\Debug\CadastroProdutos.pdb
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\ListaPedidos\bin\Debug\CadastroProdutos.exe.config
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\ListaPedidos\bin\Debug\CadastroCategoria.pdb
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\ListaPedidos\bin\Debug\CadastroCategoria.exe.config
+C:\Users\rs323\Desktop\PI 2º Semestre\Telas PI\King's Menu\ListaPedidos\obj\Debug\ListaPedidos.csproj.CopyComplete

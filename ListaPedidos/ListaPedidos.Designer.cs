@@ -33,15 +33,17 @@
             this.gridPedidos = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.btnCancelar = new System.Windows.Forms.Button();
+            this.btnLista = new System.Windows.Forms.Button();
+            this.btnCupom = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.gridPedidos)).BeginInit();
             this.SuspendLayout();
             // 
             // btnFinalizar
             // 
-            this.btnFinalizar.Location = new System.Drawing.Point(192, 180);
+            this.btnFinalizar.Location = new System.Drawing.Point(382, 180);
             this.btnFinalizar.Name = "btnFinalizar";
-            this.btnFinalizar.Size = new System.Drawing.Size(138, 23);
-            this.btnFinalizar.TabIndex = 28;
+            this.btnFinalizar.Size = new System.Drawing.Size(107, 23);
+            this.btnFinalizar.TabIndex = 2;
             this.btnFinalizar.Text = "Finalizar pedido";
             this.btnFinalizar.UseVisualStyleBackColor = true;
             // 
@@ -52,7 +54,7 @@
             this.gridPedidos.Location = new System.Drawing.Point(35, 56);
             this.gridPedidos.Name = "gridPedidos";
             this.gridPedidos.Size = new System.Drawing.Size(454, 118);
-            this.gridPedidos.TabIndex = 27;
+            this.gridPedidos.TabIndex = 0;
             // 
             // label1
             // 
@@ -70,10 +72,30 @@
             // 
             this.btnCancelar.Location = new System.Drawing.Point(35, 180);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(125, 23);
-            this.btnCancelar.TabIndex = 32;
+            this.btnCancelar.Size = new System.Drawing.Size(98, 23);
+            this.btnCancelar.TabIndex = 1;
             this.btnCancelar.Text = "Cancelar pedido";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            // 
+            // btnLista
+            // 
+            this.btnLista.Location = new System.Drawing.Point(148, 180);
+            this.btnLista.Name = "btnLista";
+            this.btnLista.Size = new System.Drawing.Size(102, 23);
+            this.btnLista.TabIndex = 27;
+            this.btnLista.Text = "Lista de Produtos";
+            this.btnLista.UseVisualStyleBackColor = true;
+            this.btnLista.Click += new System.EventHandler(this.btnLista_Click);
+            // 
+            // btnCupom
+            // 
+            this.btnCupom.Location = new System.Drawing.Point(264, 180);
+            this.btnCupom.Name = "btnCupom";
+            this.btnCupom.Size = new System.Drawing.Size(102, 23);
+            this.btnCupom.TabIndex = 28;
+            this.btnCupom.Text = "Criar cupom";
+            this.btnCupom.UseVisualStyleBackColor = true;
+            this.btnCupom.Click += new System.EventHandler(this.btnCupom_Click);
             // 
             // ListaPedidos
             // 
@@ -81,6 +103,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ListaPedidos.Properties.Resources._066f195a5f87ea2b7f35a4cb1b11d7b3_desenho_geometrico_de_fundo_vermelho;
             this.ClientSize = new System.Drawing.Size(536, 238);
+            this.Controls.Add(this.btnCupom);
+            this.Controls.Add(this.btnLista);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnFinalizar);
             this.Controls.Add(this.gridPedidos);
@@ -100,6 +124,8 @@
         private System.Windows.Forms.DataGridView gridPedidos;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.Button btnLista;
+        private System.Windows.Forms.Button btnCupom;
     }
 }
 
